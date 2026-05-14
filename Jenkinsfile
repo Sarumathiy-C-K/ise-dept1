@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage("Clone Code") {
             steps {
-                git url: "https://github.com/YOUR_USERNAME/jenkins-ci-cd1.git",
-                    branch: "main"
+               git credentialsId: 'github-token', url: 'https://github.com/Sarumathiy-C-K/ise-dept1.git'
             }
         }
         stage("Build") {

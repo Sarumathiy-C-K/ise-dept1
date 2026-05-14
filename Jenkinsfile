@@ -4,7 +4,7 @@ pipeline {
     steps {
         git branch: 'main',
             credentialsId: 'github-token',
-            url: 'https://github.com/Sarumathiy-C-K/jenkins-ci-cd2.git'
+            url: 'https://github.com/Sarumathiy-C-K/ise-dept1.git'
     }
 }
 
